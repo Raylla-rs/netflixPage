@@ -11,7 +11,7 @@
 /*elementos base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -25,8 +25,9 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 header nav a{
@@ -51,6 +52,11 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 60%;
+    margin-left: 30px;
 }
 
 .filme-principal .descricao{
