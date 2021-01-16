@@ -44,7 +44,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("C:/workspace/netflix/img/rupauls2.jpg");
-    
+
     height: 400px;
     background-size: cover;
 
@@ -89,4 +89,10 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+}
+
+.box-filme{
+    height:100%;
+    width:100%;
+    display: block;
 }
