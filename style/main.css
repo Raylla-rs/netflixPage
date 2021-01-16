@@ -92,6 +92,7 @@ header nav a:hover{
 }
 
 .box-filme{
+    margin-top: 5px;
     height:100%;
     width:100%;
     display: block;
